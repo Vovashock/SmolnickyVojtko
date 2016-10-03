@@ -11,4 +11,6 @@ Uloha c.2
 	
 Uloha c.3
 	-> (main5, main6, main7) na riadkoch 73 - 79 sme nastavili potrebne piny pre LEDku(5 pin) a spinac(13 pin).
+	-> (main5) na riadkoch 82 - 88 je zabezpecene blikanie LEDky. Nastavovanie 5. pinu s casovacom.
 	-> (main6) na riadkoch 82 - 88 sme simulovali blikanie LEDky pomocou registra ODR. S frekvenciou 1 sekundu. Pricom sa snimal stav spinaca. Ak je spinac stlaceny a LEDka svieti, tak sa LEDka vypne. V opacnom pripade sa LEDka rozsvieti.
+	-> (main7) riadky 83 - 89 hovoria o tom, ze ak sa stlaci spinac, tak LEDka zasvieti, ale len ak je spinac stlaceny.
