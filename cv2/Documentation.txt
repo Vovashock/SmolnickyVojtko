@@ -1,0 +1,14 @@
+Uloha c.1 
+	-> Najprv sme si na riadkoch 70 - 73 nastavili v registroch ovladanie LED-ky, podla uvedeneho navodu v zadani pre pin PA5.
+	-> (main1) na riadkoch 77 a 79 je simulovane zapnutie a vypnutie LED-ky pomocou ODR
+	-> (main2) na riadkoch 80 a 81 zabezpecujeme prepinanie stavov pomocou ODR
+	-> (main2) na riadkoch 85 - 87 zapmnutie a vypnutie pomocou BSRRL a BSRRH
+	
+Uloha c.2
+	-> (main3) na riadkoch 71 - 75 nastavujeme pin pre tlacidlo PC13. Podla zadania z ulohy 2.
+	-> pomocou registra IDR viemem sledovat aktualnu polohu spinaca
+	->vo while cykle na riadkoch 77 - 83 priradujeme do lokalnej premennej hodnotu spinaca prisluchajucej aktualnej polohe.
+	
+Uloha c.3
+	-> (main5, main6, main7) na riadkoch 73 - 79 sme nastavili potrebne piny pre LEDku(5 pin) a spinac(13 pin).
+	-> (main6) na riadkoch 82 - 88 sme simulovali blikanie LEDky pomocou registra ODR. S frekvenciou 1 sekundu. Pricom sa snimal stav spinaca. Ak je spinac stlaceny a LEDka svieti, tak sa LEDka vypne. V opacnom pripade sa LEDka rozsvieti.
